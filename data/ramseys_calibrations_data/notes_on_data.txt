@@ -1,0 +1,2 @@
+All data in this directory are from the lab PC at:
+'smb://senkolab-nas.iqc.uwaterloo.ca/documents/Lab%20Data/D52_Calibration_Ba137/Fast_Ramsey_calibrations'

@@ -1,0 +1,16 @@
+0,0.85
+10,0.45918367346938777
+20,0.2828282828282828
+30,0.06060606060606061
+40,0.04081632653061224
+50,0.29473684210526313
+60,0.5208333333333334
+70,0.7755102040816326
+80,0.91
+90,0.9583333333333334
+100,0.7244897959183674
+[[0, 3, 2], [0, 2, 2]]
+([595.055138325379, 532.3336750405712], [532.3336750405712, 595.055138325379])
+[545.6843154931305, 623.4831507226035]
+([31.429752384124484, 130.39219031252722], [130.39219031252722, 31.429752384124484])
+['Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_705', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_706', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_707', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_708', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_709', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_710', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_711', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_712', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_713', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_714', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_03\\2025_03_17\\Bussed_qubits_for_MFNC_715']

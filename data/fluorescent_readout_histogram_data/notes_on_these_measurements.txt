@@ -1,0 +1,3 @@
+20k readouts per file
+Brights taken with 389 and 614 blocked, 493 and 650 on of course
+Darks taken with no ion, but with readout lasers on as well.

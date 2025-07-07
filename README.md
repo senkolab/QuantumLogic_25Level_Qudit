@@ -1,0 +1,1 @@
+These analysis scripts, along with the attendant data sets, pertain to experiments and results presented in the paper entitled "Quantum logic operations and single-qudit algorithms in a 25-level atomic qudit" by P.J. Low, N.C.F. Zutt, G.A. Tathed, and C. Senko at the University of Waterloo.

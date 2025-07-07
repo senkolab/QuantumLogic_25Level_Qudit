@@ -1,0 +1,100 @@
+0,0.053061224489795916
+1.1111111111111112,0.15725806451612903
+2.2222222222222223,0.17479674796747968
+3.3333333333333335,0.34552845528455284
+4.444444444444445,0.4538152610441767
+5.555555555555555,0.6475409836065574
+6.666666666666666,0.8008130081300813
+7.777777777777777,0.902834008097166
+8.888888888888888,0.9590163934426229
+9.999999999999998,0.979757085020243
+11.111111111111109,0.9878048780487805
+12.22222222222222,0.9794238683127572
+13.33333333333333,0.9714285714285714
+14.444444444444441,0.9428571428571428
+15.555555555555552,0.9435483870967742
+16.666666666666664,0.9306122448979591
+17.777777777777775,0.9755102040816327
+18.888888888888886,0.9835390946502057
+19.999999999999996,0.9799196787148594
+21.111111111111107,0.9959349593495935
+22.222222222222218,1.0
+23.33333333333333,0.9835390946502057
+24.44444444444444,0.9958847736625515
+25.55555555555555,0.9757085020242915
+26.66666666666666,0.9877551020408163
+27.77777777777777,0.9876543209876543
+28.888888888888882,0.9518072289156626
+29.999999999999993,0.9838056680161943
+31.111111111111104,0.9919354838709677
+32.222222222222214,0.9918032786885246
+33.33333333333333,0.991869918699187
+34.44444444444444,0.9918367346938776
+35.55555555555556,0.9833333333333333
+36.66666666666667,0.9919354838709677
+37.777777777777786,0.9595141700404858
+38.8888888888889,0.983739837398374
+40.000000000000014,0.9635627530364372
+41.11111111111113,0.967479674796748
+42.22222222222224,0.9758064516129032
+43.33333333333336,0.9795918367346939
+44.44444444444447,1.0
+45.555555555555586,0.9959349593495935
+46.6666666666667,0.9959016393442623
+47.777777777777814,0.9878542510121457
+48.88888888888893,0.9959016393442623
+50.00000000000004,0.970954356846473
+51.11111111111116,0.979253112033195
+52.22222222222227,1.0
+53.333333333333385,0.9959183673469387
+54.4444444444445,0.9959677419354839
+55.555555555555614,0.9919678714859438
+56.66666666666673,0.9836065573770492
+57.77777777777784,1.0
+58.88888888888896,0.9878048780487805
+60.00000000000007,0.9878542510121457
+61.111111111111185,0.991869918699187
+62.2222222222223,0.975103734439834
+63.333333333333414,0.9795918367346939
+64.44444444444453,0.9835390946502057
+65.55555555555564,0.9878048780487805
+66.66666666666676,0.9958847736625515
+67.77777777777787,0.9959514170040485
+68.88888888888899,0.9918367346938776
+70.0000000000001,0.9676113360323887
+71.11111111111121,0.967741935483871
+72.22222222222233,0.9676113360323887
+73.33333333333344,0.979757085020243
+74.44444444444456,0.9839357429718876
+75.55555555555567,0.979757085020243
+76.66666666666679,0.9839357429718876
+77.7777777777779,0.991869918699187
+78.88888888888901,0.9839357429718876
+80.00000000000013,0.9796747967479674
+81.11111111111124,0.9757085020242915
+82.22222222222236,0.9631147540983607
+83.33333333333347,0.9635627530364372
+84.44444444444458,0.9676113360323887
+85.5555555555557,0.9754098360655737
+86.66666666666681,0.9794238683127572
+87.77777777777793,0.9755102040816327
+88.88888888888904,0.9918367346938776
+90.00000000000016,0.9473684210526315
+91.11111111111127,0.9193548387096774
+92.22222222222238,0.8489795918367347
+93.3333333333335,0.7295081967213115
+94.44444444444461,0.582995951417004
+95.55555555555573,0.45643153526970953
+96.66666666666684,0.21686746987951808
+97.77777777777796,0.12863070539419086
+98.88888888888907,0.0975609756097561
+99.9999999999,0.09349593495934959
+[[1, 2, 2], [1, 2, -1], [1, 3, 2], [1, 4, 2], [1, 3, 3], [1, 4, 0], [1, 4, 1], [1, 4, -1], [1, 4, -1], [1, 4, 1], [1, 4, 0], [1, 3, 3], [1, 4, 2], [1, 3, 2], [1, 2, -1], [1, 2, 2]]
+[545.835237970528, 623.6404738760374]
+[80.65354289377206, 61.02884687267055, 55.24427581825623, 51.426328854259665, 49.45164783579248, 45.80324266324042, 43.413152995213984, 38.54833347760956, 38.54833347760956, 43.413152995213984, 45.80324266324042, 49.45164783579248, 51.426328854259665, 55.24427581825623, 61.02884687267055, 80.65354289377206]
+[17.449143651533273, 14.039897148676914, 13.631619770534975, 13.767881075293936, 14.596506172762947, 15.267747554413475, 17.01042605089193, 19.274166738804784, 19.274166738804784, 17.01042605089193, 15.267747554413475, 14.596506172762947, 13.767881075293936, 13.631619770534975, 14.039897148676914, 17.449143651533273]
+[0.1111111111111111, 0.125, 0.14285714285714285, 0.16666666666666666, 0.2, 0.25, 0.3333333333333333, 0.5]
+[0.5, 0.3333333333333333, 0.25, 0.2, 0.16666666666666666, 0.14285714285714285, 0.125, 0.1111111111111111]
+[[1, 2, 2], [1, 2, -1], [1, 3, 2], [2, 4, 2], [1, 3, 3], [1, 4, 0], [1, 4, 1], [1, 4, -1]]
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 52.84856975038838, 46.63519761328857, 40.421825476188744, 34.20845333908891, 27.995081201989088, 21.781709064889267, 15.56833692778944, 9.354964790689618]
+['Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_099', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_100', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_101', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_102', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_103', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_104', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_105', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_106', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_107', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_108', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_109', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_110', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_111', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_112', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_113', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_114', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_115', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_116', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_117', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_118', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_119', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_120', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_121', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_122', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_123', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_124', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_125', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_126', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_127', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_128', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_129', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_130', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_131', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_132', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_133', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_134', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_135', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_136', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_137', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_138', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_139', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_140', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_141', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_142', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_143', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_144', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_145', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_146', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_147', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_148', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_149', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_150', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_151', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_152', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_153', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_154', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_155', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_156', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_157', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_158', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_159', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_160', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_161', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_162', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_163', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_164', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_165', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_166', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_167', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_168', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_169', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_170', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_171', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_172', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_173', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_174', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_175', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_176', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_177', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_178', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_179', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_180', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_181', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_182', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_183', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_184', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_185', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_186', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_187', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_188', 'Z:\\Lab Data\\Qudit_Ramsey_raw_data\\Raw_data_copied\\2025\\2025_04\\2025_04_04\\qudit_ramsey_scan_unbused_209']
