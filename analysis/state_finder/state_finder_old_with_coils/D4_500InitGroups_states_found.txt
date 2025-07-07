@@ -1,0 +1,62 @@
+Total number of initial group guesses: 500. 
+
+1 Objective = 0.030997495964645745
+1 Group Members: 
+[[-2  4  0]
+ [-2  2 -1]
+ [-2  3 -2]] 
+
+2 Objective = 0.030997495964645745
+2 Group Members: 
+[[-2  4  0]
+ [-2  2 -1]
+ [-2  3 -2]] 
+
+3 Objective = 0.030997495964645745
+3 Group Members: 
+[[-2  2 -1]
+ [-2  4  0]
+ [-2  3 -2]] 
+
+4 Objective = 0.030997495964645745
+4 Group Members: 
+[[-2  2 -1]
+ [-2  4  0]
+ [-2  3 -2]] 
+
+5 Objective = 0.030997495964645745
+5 Group Members: 
+[[-2  3 -2]
+ [-2  2 -1]
+ [-2  4  0]] 
+
+6 Objective = 0.030997495964645745
+6 Group Members: 
+[[-2  2 -1]
+ [-2  4  0]
+ [-2  3 -2]] 
+
+7 Objective = 0.030997495964645745
+7 Group Members: 
+[[-2  2 -1]
+ [-2  4  0]
+ [-2  3 -2]] 
+
+8 Objective = 0.030997495964645745
+8 Group Members: 
+[[-2  4  0]
+ [-2  3 -2]
+ [-2  2 -1]] 
+
+9 Objective = 0.030997495964645745
+9 Group Members: 
+[[-2  3 -2]
+ [-2  2 -1]
+ [-2  4  0]] 
+
+10 Objective = 0.030997495964645745
+10 Group Members: 
+[[-2  2 -1]
+ [-2  4  0]
+ [-2  3 -2]] 
+

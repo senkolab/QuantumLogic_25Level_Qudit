@@ -1,0 +1,29 @@
+Initial State Manifold is S1/2.
+Total pulse time: 19.47 us.
+######################################################################## 
+
+initial_state = [[-2, 4, -4]]
+
+pulse_train_U1 = [[-2, 4, -4]]
+fractions_U1 = [0.5]
+simulated_phase_mask_U1 = [0]
+fixed_phase_mask_U1 = [0]
+
+pulse_train_U2 = [[-2, 4, -4]]
+fractions_U2 = [0.5]
+simulated_phase_mask_U2 = [1]
+fixed_phase_mask_U2 = [1]
+
+s12_state_shelvings = []
+s12_state_fractions = []
+s12_state_fixed_phases = []
+s12_state_simulated_phases = []
+
+probe_trans = [[-2, 4, -4]]
+
+pulse_train_U2 = pulse_train_U2 + s12_state_shelvings
+fractions_U2 = fractions_U2 + s12_state_fractions
+fixed_phase_mask_U2 = fixed_phase_mask_U2 + s12_state_fixed_phases
+simulated_phase_mask_U2 = simulated_phase_mask_U2 + s12_state_simulated_phases
+######################################################################## 
+

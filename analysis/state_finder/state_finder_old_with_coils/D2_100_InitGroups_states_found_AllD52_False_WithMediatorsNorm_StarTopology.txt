@@ -1,0 +1,35 @@
+Total number of initial group guesses: 100. 
+
+1 Cost = 0.005831102004750969
+1 Group Members: 
+[[ 0 -2]
+ [ 4 -4]] 
+
+1 Group Paths: 
+ Initial State Final State  Pi-Time
+            -2     [4, -4]   21.897 
+
+######################################################################## 
+
+2 Cost = 0.005831102004750969
+2 Group Members: 
+[[ 0 -2]
+ [ 4 -4]] 
+
+2 Group Paths: 
+ Initial State Final State  Pi-Time
+            -2     [4, -4]   21.897 
+
+######################################################################## 
+
+3 Cost = 0.005831102004750969
+3 Group Members: 
+[[ 0 -2]
+ [ 4 -4]] 
+
+3 Group Paths: 
+ Initial State Final State  Pi-Time
+            -2     [4, -4]   21.897 
+
+######################################################################## 
+

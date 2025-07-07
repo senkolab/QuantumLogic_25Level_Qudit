@@ -1,0 +1,232 @@
+#+TITLE: Analysis Scripts
+#+AUTHOR: Nicholas Zutt
+
+* Scripts
+Brief descriptions of the scripts in this folder and where to go for
+information/re-running code.
+
+** Ion/System
+*** =class_constants.py=
+**** Main Usage
+- Stores the constants often called in other (child) classes like atomic
+  parameters and lists of manifold states in various bases
+*** =class_utils.py=
+**** Imports/Parents
+- Class Constants
+**** Main Usage
+- Utility class with methods like Clebsch-Gordan coefficient calculation, basis
+  transformation matrix, spin matrix generator as Qobj, error finding using the
+  Wilson interval, etc
+*** =class_barium.py=
+**** Imports/Parents
+- Utils Class
+**** Main Usage
+- Home of the all important Barium Class
+- Defines the system Hamiltonian, solves it for eigenstates and vectors at range
+  of magnetic fields to give the transition spectrum
+- Generates a plethora of tables and figures for convenience and analysis, such
+  as transition frequencies, strengths, magnetic field sensitivities,
+  combinations thereof, fitting geometric factors for 1762 nm laser
+  polarisations to fit transition strengths of different \Delta m transitions..
+- Also shows a D_{5/2} through P_{3/2} to S_{1/2} repumping map with probabilities of
+  pathways taken, which was useful for initialisation work
+
+** Calibration
+*** =calibration_analysis.py=
+**** Imports/Parents
+- Barium Class
+**** Main Usage
+- Home of the Calibrations Class
+- This class underpins all connections between the theoretical system
+  calculations (class Barium) and the results of measurements of transition
+  frequencies, strengths, etc
+- Used to compare different calibration methods (eg. full frequency scans vs.
+  Ramsey type 2-point calibration) and uses the data to create the a_{n,1} and a_{n,2}
+  parameters for each transitions used to predict frequencies just based on the
+  measurements of [0,2,0] and [-1,4,-3] alone.
+- Can also plot a type of magnetic field monitor based on ion measurements, give
+  a full transition frequency and pitime table set, and compare predicted and
+  measured results (theory vs experiment)
+- It can also plot a very nice "frequency jungle" plot with full Rabi fringes
+  for all transitions and sidebands based on the frequencies and transition
+  strengths verified by measurement
+
+*** =heralded_pulse_time_scan.py=
+**** Imports
+- Class Barium
+**** Main Usage
+- Data analysis for pulse time scans taken mostly just around the pi-time, in
+  order to measure how transition strengths and sensitivities relate to pi-pulse
+  fidelities (are they well desscribed by \kappa^2 \tau^2 as in the 13 level paper?)
+- Fitting these fidelities to some function of \kappa's and \tau_\pi's has not worked
+  terribly well
+*** =180Hz_magnetic_field_probe.py=
+**** Imports
+- Class Barium
+**** Main Usage
+- Plotting the frequencies of [0,2,0] and [-1,4,-3] and extracting the magnetic
+  field versus the line signal phase
+*** =fluor_readout_histogram.py=
+- Short script used to plot the histogram of PMT counts for both bright (ion
+  under fluorescence) and dark (no ion) readings, to estimate readout infidelity
+  as part of error budget for 25 level SPAM data.
+*** =magnetic_field_fitting.py=
+- Takes magnetometer data from a single afternoon and plots the distribution of
+  readings along three axes, with one axis (y) corresponding to the ion trap B
+  field axis.
+- Confirms that magnetic field noise profile is Gaussian
+*** =pulse_time_variation_finder.py=
+- Finds the standard deviation for long (~few hours) drifts in pulse times from
+  1762 power and beam pointing fluctuations.
+** 25 level SPAM
+*** =pump_reps_scans_plotting.py=
+- Simple script to plot S_{1/2} initialisation as a function of initialisation
+  repetitions.
+*** =S12_initialisation.py=
+**** Main Usage:
+- Plotting the repeated measurements of S_{1/2} state initialisation in F=2, in
+  order to generate a "SPAM" type 5-level fidelity plot, where for the intended
+  state we use the "cabinet shelving" approach of shelving to 6 different states.
+*** =pump_reps_NBOP_choice.py=
+- Simple script to plot S_{1/2} initialisation as a function of initialisation
+  repetitions both for "good" and "bad" choices of D_{5/2} states to pump
+  population to.
+*** =25_level_5K_SPAM.py=
+**** Imports
+- Calibrations classes
+**** Main Usages
+- Plotting 25 level SPAM results with many repetitions in order to get statistics
+# - Showing results of 3 ms deshelving pulse scans intended to show off-resonant
+#   scattering rates for different transitions
+# - Finding optimal axial and secular motional frequencies
+# - Fitting secular frequencies based on off-resonant scattering measurements (not
+#   working too well)
+**** Data
+- =25_level_10K_SPAM_data=
+** Qudit Ramsey
+*** =plot_ramsey.py=
+- Simple utility script for plotting raw data from Ramsey scans
+*** =plot_qudit_ramsey.py=
+- A generalisation of =plot_ramsey.py= meant to handle variable numbers of
+  heralding checks
+*** =segmented_ramseys_PM.py=
+**** Imports
+- Utils and Barium Classes
+**** Main Usages
+- Plotting the Ramsey measurements taken for qubits where for each wait time we
+  take a full phase scan to fit the contrast of the oscillations.
+- This turned out to be a much better approach than allowing both the phase and
+  wait time to vary at the same time
+- The measurements plotted and analysed here gave us the estimates for magnetic
+  field and laser noise used in subsequent work for state finding, Ramsey pulse
+  sequence finding, etc
+- /This is a new file for perm. magnet data./
+
+*** =ramsey_star_pulse_finder.py=
+**** Imports/Parents
+- StateFinder class
+**** Main Usage
+- Defines the RamseyStarPulseFinder class
+- Uses the states found as optimal subsets of /d/-states to order them optimally
+  for Ramsey pulse sequences in =find_ordered_states= _for Star topology only_
+- Additionally, can generate a list of pulse sequences, phases, and pulse
+  fractions (using =find_ordered_pulse_sequence=) implementing the full Ramsey
+  experiment in IonControl.
+
+*** =qudit_ramsey_phase_scan.py=
+**** Imports
+- RamseyPulseFinder class
+**** Main Usage
+- Plots phase scans for qudit Ramsey measurements
+*** =qudit_ramsey_contrast.py=
+**** Imports
+- RamseyPulseFinder class
+**** Main Usage
+- Pulls Ramsey contrast measurement data and finds the contrast, to then plot
+  the contrast vs. dimension, and/or contrast vs. total Ramsey pulse time
+
+*** =qudit_ramsey_contrast_by_noise_type.py=
+**** Imports
+- RamseyPulseFinder and QuditUnitary class
+**** Main Usage
+- Pulls Ramsey contrast measurement data and finds the contrast, to then plot
+  the contrast vs. dimension, and/or contrast vs. total Ramsey pulse time
+- Implements this in a "by noise type" manner to plot each contribution separately
+*** =qudit_ramsey_simulation.py=
+**** Imports/Parents
+- Class Barium
+**** Main Usages
+- Home of the Ramsey Class
+- This script takes all our transition frequency, strength, sensitivities,
+  information and defines a piece-wise time independent Hamiltonian
+  corresponding to a given Ramsey experiment, then calculates the time evolution
+  for the system in this case, and allows for plotting populations both during
+  the pulse sequence of the Ramsey itself, and at the end of the sequence
+*** =ramsey_pulse_finder.py=
+**** Imports/Parents
+- Class StateFinder
+**** Main Usages
+- Uses the optimal subset of /d/ states for a given qudit size and determines the
+  best initial state and the best order to distribute population for a
+  Ramsey-type qudit sequence
+- Best initial state is chosen using the cost function that is also used for
+  state subset finding, the subsequent states are chosen based on descending
+  order of total transition time from the initial state
+*** =qudit_ramsey_unitary.py=
+**** Imports
+- Calibrations class
+**** Main Usage
+- Uses a unitary matrix calculator to implement evolution of a pulse sequence
+  (for instance, a Ramsey sequence) and can sample various noise sources using
+  Monte Carlo methods to get a handle on the expectations of noise for the
+  system. How different noise sources affect our Ramseys essentially.
+- Mainly used to generate some qudit Ramsey traces, either for reference (with
+  no noise) or with noisy sampling to match experiment.
+*** =qudit_ramsey_contrast_finder.py=
+**** Imports
+- QuditUnitary class
+**** Main Usage
+- Takes unitary evolver class and tries to find the maximum noise level
+  acceptable, as a function of dimension, for which a given Ramsey sequence is
+  able to be implemented with under 10^-4 contrast loss.
+** Optimal Control
+*** =path_finder.py=
+**** Imports/Parents
+- Class Barium
+**** Main Usages
+- Takes as input magnetic field and transition strengths reference values in
+  order to create a coupling graph describing the connectivity of all states in
+  the S_{1/2}/D_{5/2} joint manifold (using only quadupole transitions).
+- From here, the search algorithm looks for the fastest (lowest transition time)
+  pathway between every pair of states in the manifold, and returns the path
+  used there. This is a fully exhaustive search algorithm.
+*** =state_finder.py=
+**** Imports/Parents
+- PathFinder Class
+**** Main Usages
+- Given a dictionary of optimal paths between states (using only quadupole
+  transitions), find optimal subsets of /d/ states for a qudit of a given dimension
+- Generates many so-called "all-to-all" tables showing effective transition
+  sensitivities and times as realised through the graph of connections available
+** Misc
+*** =plot_utils.py=
+- Very simple script defining fonts for plotting, and a convenient function for
+  defining figure sizes.
+*** =log_magnetic_field.py=
+- Simple script that takes magnetic field data directly from lab PC over NAS and
+  plots deviations over time to monitor for high magnetic field noise
+  events/time periods
+*** =log_temperature.py=
+- Simple script that takes temperature data directly from lab PC over NAS and
+  plots the lab temperature over time to monitor for temperature fluctuations
+  in several locations in the lab
+*** =log_coil_voltage.py=
+- Like temperature, a simple script to plot the coil output voltage over time.
+
+*** =log_lab_environment.py=
+- This logging script supercedes all the others above. It plots temp, humidity
+  and pressure all together from the new sensor we have in the lab.
+*** =log_outside_data.py=
+- Fetches outside data with an API call to a weather site for Waterloo, max of 2
+  API calls per day for free, and is used for comparison with lab atmosphere
+  behaviour.
